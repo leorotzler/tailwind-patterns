@@ -46,7 +46,7 @@ tailwindPatterns({
       'green-devil': '#a1fc03|#6ca803',
       'simply-red': 'red',
   },
-  patternNameSpace: 'patterns', // optional, default: patterns
+  patternNameSpace: 'pattern', // optional, default: pattern
 })
 ```
 
