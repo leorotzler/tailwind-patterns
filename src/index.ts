@@ -8,12 +8,12 @@ interface PatternFunction {
   patternNameSpace?: string;
 }
 
-const patterns = function ({
+const patternsPlugin = ({
   patterns,
   colorCombinations,
   patternNameSpace = "pattern",
-}) {
-  return function ({ addUtilities }) {
+}: PatternFunction) => {
+  return ({ addUtilities }: any) => {
     let utlilties = {};
 
     Object.keys(patterns).forEach((key) => {
@@ -43,4 +43,4 @@ const patterns = function ({
   };
 };
 
-module.exports = patterns;
+module.exports = patternsPlugin;
