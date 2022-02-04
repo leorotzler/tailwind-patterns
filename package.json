@@ -1,6 +1,6 @@
 {
   "name": "@everec/tailwind-patterns",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SVG Background Patterns for Tailwind",
   "main": "index.js",
   "scripts": {

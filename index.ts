@@ -33,7 +33,7 @@ const patterns = function ({
           ...utlilties,
           [`.${patternNameSpace}-${patternName}-${combinationKey}`]: {
             backgroundImage: uri,
-            backgroundColor: bgFillColor,
+            backgroundColor: colors[0],
           },
         };
       });

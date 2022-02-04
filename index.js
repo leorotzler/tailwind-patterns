@@ -27,7 +27,7 @@ var patterns = function (_a) {
                     .replace("PATTERN_FILL", patternFillColor);
                 utlilties = __assign(__assign({}, utlilties), (_a = {}, _a[".".concat(patternNameSpace, "-").concat(patternName, "-").concat(combinationKey)] = {
                     backgroundImage: uri,
-                    backgroundColor: bgFillColor
+                    backgroundColor: colors[0]
                 }, _a));
             });
             addUtilities(utlilties);
